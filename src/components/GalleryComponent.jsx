@@ -5,10 +5,17 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 export const GalleryComponent = () => {
   const images = dataImages.map((image) => {
-    const imgURL = new URL(`${image.original}.jpeg`, import.meta.url).href;
+    const imageP = image.original;
+
+    function getImageUrl(name) {
+      return new URL(`./dir/${name}.png`, import.meta.url).href;
+    }
+
+    const imgURL = getImageUrl(imageP);
+
     return {
       original: imgURL,
-      thumbnail: `${image.thumbnail}.jpeg`,
+      thumbnail: imgURL,
       description: image.description,
     };
   });
