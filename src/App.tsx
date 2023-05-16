@@ -8,11 +8,11 @@ import headerImage from "./assets/headerImg.jpeg";
 //   Whatsapp,
 // } from "./components";
 
-import  Title  from "./components/Title";
-import  GalleryComponent  from "./components/GalleryComponent";
-import  Content  from "./components/Content";
-import  Ubicacion  from "./components/Ubicacion";
-import  Whatsapp  from "./components/Whatsapp";
+import { Title } from "./components/Title";
+import { GalleryComponent } from "./components/GalleryComponent";
+import { Content } from "./components/Content";
+import { Ubicacion } from "./components/Ubicacion";
+import { Whatsapp } from "./components/Whatsapp";
 
 import "./App.css";
 
