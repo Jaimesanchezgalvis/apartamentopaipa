@@ -4,12 +4,10 @@ import "../styles/whatsapp.css";
 
 export const IconWhatsapp = () => {
   return (
-    <>
-      <div className="animate__animated animate__bounceInDown">
-        <a href="https://wa.me/573143681004" target="blank">
-          <BsWhatsapp className="BsWhatsapp" />
-        </a>
-      </div>
-    </>
+    <div className="animate__animated animate__bounceInDown animate__backInDown">
+      <a href="https://wa.me/573143681004" target="blank">
+        <BsWhatsapp className="BsWhatsapp" />
+      </a>
+    </div>
   );
 };

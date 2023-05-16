@@ -2,6 +2,7 @@ import ImageGallery from "react-image-gallery";
 import dataImages from "../data/images.json";
 
 import "react-image-gallery/styles/css/image-gallery.css";
+import "../styles/gallery.css";
 
 export const GalleryComponent = () => {
   const images = dataImages.map((image) => {
@@ -22,7 +23,7 @@ export const GalleryComponent = () => {
     <>
       <hr />
       <h3>Hermoso apartamento, a estrenar:</h3>
-      <ImageGallery items={images} />
+      <ImageGallery items={images} showPlayButton={false} />
     </>
   );
 };

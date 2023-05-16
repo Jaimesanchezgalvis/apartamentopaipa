@@ -7,8 +7,6 @@ import kitchen_point from "../assets/icons/kitchen_point.svg";
 import security from "../assets/icons/security.svg";
 import dollar from "../assets/icons/dollar.svg";
 
-
-
 export const Content = () => {
   return (
     <Card
@@ -33,7 +31,8 @@ export const Content = () => {
           <Avatar squared src={bedroom} />
           <Text size={20}>
             {" "}
-            Habitacion principal con baño privado y vestier.
+            <b>Habitacion Principal: </b>
+            con baño privado y vestier.
           </Text>
         </Row>
 
@@ -47,7 +46,7 @@ export const Content = () => {
           <Avatar squared src={bedroom} />
           <Text size={20}>
             {" "}
-            2 Habitaciones con vistas al lago y luz natural.
+            <b>2 Habitaciones </b>con vistas al lago y luz natural.
           </Text>
         </Row>
 
@@ -59,7 +58,10 @@ export const Content = () => {
           }}
         >
           <Avatar squared src={bathroom} />
-          <Text size={20}> Baño social con ducha y acabados.</Text>
+          <Text size={20}>
+            {" "}
+            <b>Baño social:</b> completo con ducha y acabados.
+          </Text>
         </Row>
 
         <Row
@@ -70,7 +72,10 @@ export const Content = () => {
           }}
         >
           <Avatar squared src={study} />
-          <Text size={20}> Espacio para estudio con luz natural.</Text>
+          <Text size={20}>
+            {" "}
+            <b>Espacio para estudio:</b> con luz natural.
+          </Text>
         </Row>
 
         <Row
@@ -83,7 +88,7 @@ export const Content = () => {
           <Avatar squared src={living_room} />
           <Text size={20}>
             {" "}
-            Grande sala comedor con vista al lago y luz natural.
+            <b>Sala comedor:</b> Amplia con vista al lago y grandes ventanas.
           </Text>
         </Row>
 
@@ -97,7 +102,7 @@ export const Content = () => {
           <Avatar squared src={kitchen_point} />
           <Text size={20}>
             {" "}
-            Cocina integral con acabados y espacio para lavadora.
+            <b>Cocina:</b> integral con acabados y espacio para lavadora.
           </Text>
         </Row>
         <Row
@@ -110,7 +115,8 @@ export const Content = () => {
           <Avatar squared src={security} />
           <Text size={20}>
             {" "}
-            Ubicacion: conjunto cerrado torres del panorama con vigilancia 24/7.
+            <b>Ubicacion:</b> Conjunto cerrado torres del panorama con
+            vigilancia 24/7, parqueadero comunal.
           </Text>
         </Row>
         <hr />
@@ -124,7 +130,7 @@ export const Content = () => {
           <Avatar squared src={dollar} />
           <Text size={20}>
             {" "}
-            Precio del arriendo $800000 incluye administracion.
+            <b>Precio:</b> Arriendo $800000 incluye administracion.
           </Text>
         </Row>
       </Card.Body>
