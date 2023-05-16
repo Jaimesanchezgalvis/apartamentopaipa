@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Text } from "@nextui-org/react";
 
-const Whatsapp = () => {
+export const Whatsapp = () => {
   return (
     <Card
       xs={12}
@@ -43,5 +43,3 @@ const Whatsapp = () => {
     </Card>
   );
 };
-
-export default Whatsapp;

@@ -3,7 +3,7 @@ import dataImages from "../data/images.json";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
-const GalleryComponent = () => {
+export const GalleryComponent = () => {
   const images = dataImages.map((image) => {
     return {
       original: image.original,
@@ -21,4 +21,3 @@ const GalleryComponent = () => {
   );
 };
 
-export default GalleryComponent;

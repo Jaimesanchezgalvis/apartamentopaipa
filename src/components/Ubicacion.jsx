@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Text } from "@nextui-org/react";
 
-const Ubicacion = () => {
+export const Ubicacion = () => {
   return (
     <Card
       xs={12}
@@ -37,4 +37,3 @@ const Ubicacion = () => {
   );
 };
 
-export default Ubicacion;

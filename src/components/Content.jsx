@@ -9,7 +9,7 @@ import dollar from "../assets/icons/dollar.svg";
 
 
 
-const Content = () => {
+export const Content = () => {
   return (
     <Card
       xs={12}
@@ -131,5 +131,3 @@ const Content = () => {
     </Card>
   );
 };
-
-export default Content;

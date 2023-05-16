@@ -1,6 +1,6 @@
 import { useSpring, animated } from "react-spring";
 
-const Title = () => {
+export const Title = () => {
   const props = useSpring({
     from: { opacity: 0, transform: "translateY(-20px)" },
     to: { opacity: 1, transform: "translateY(0)" },
@@ -14,5 +14,3 @@ const Title = () => {
     </animated.h2>
   );
 };
-
-export default Title;
