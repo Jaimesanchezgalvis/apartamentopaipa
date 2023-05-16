@@ -1,7 +1,7 @@
 import React from "react";
 import videoFile from "../assets/Video/videoApartamento.mp4"; // Ruta al archivo de video
 
-import "../styles/VideoPlayer.css";
+import "../styles/videoPlayer.css";
 
 export const VideoPlayer = () => {
   return (
