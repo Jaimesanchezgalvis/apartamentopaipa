@@ -1,10 +1,14 @@
 .animate__bounceInDown {
   display: flex;
+  justify-content: flex-end;
   position: fixed;
-  width: auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
   bottom: 1rem;
   padding: 1rem;
-  right: 5%;
 }
 
 .BsWhatsapp {
