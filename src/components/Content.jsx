@@ -16,6 +16,7 @@ export const Content = () => {
         alignItems: "center",
         mw: "800px",
         margin: "0 auto",
+        marginTop: "1.5rem",
       }}
     >
       <Card.Body>

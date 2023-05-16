@@ -14,6 +14,7 @@ import { Content } from "./components/Content";
 import { Ubicacion } from "./components/Ubicacion";
 import { Whatsapp } from "./components/Whatsapp";
 import { IconWhatsapp } from "./components/IconWhatsapp";
+import { VideoPlayer } from "./components/VideoPlayer";
 
 import "./App.css";
 
@@ -46,6 +47,8 @@ function App() {
       </Card>
       <Title />
       <GalleryComponent />
+      <hr />
+      <VideoPlayer />
       <Content />
       <Ubicacion />
       <Whatsapp />
