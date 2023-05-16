@@ -18,7 +18,11 @@ import "./App.css";
 
 function App() {
   return (
-    <Container>
+    <Container 
+    css={{
+      maxWidth: "1200px",
+    }}
+    >
       <Card
         css={{
           display: "flex",
