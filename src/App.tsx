@@ -1,18 +1,22 @@
 import { Container, Card, Text, Image } from "@nextui-org/react";
 import headerImage from "./assets/headerImg.jpeg";
-import {
-  GalleryComponent,
-  Title,
-  Content,
-  Ubicacion,
-  Whatsapp,
-} from "./components/index";
+// import {
+//   GalleryComponent,
+//   Title,
+//   Content,
+//   Ubicacion,
+//   Whatsapp,
+// } from "./components";
+
+import  Title  from "./components/Title";
+import  GalleryComponent  from "./components/GalleryComponent";
+import  Content  from "./components/Content";
+import  Ubicacion  from "./components/Ubicacion";
+import  Whatsapp  from "./components/Whatsapp";
 
 import "./App.css";
 
 function App() {
-  // const api_key = import.meta.env.VITE_REACT_APP_GOOGLE_API_KEY;
-
   return (
     <Container>
       <Card
