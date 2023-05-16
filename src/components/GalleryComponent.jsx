@@ -10,7 +10,6 @@ export const GalleryComponent = () => {
     }
 
     const imgURL = getImageUrl(image.original);
-    console.log(imgURL);
 
     return {
       original: imgURL,

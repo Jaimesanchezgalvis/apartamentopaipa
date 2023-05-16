@@ -13,15 +13,16 @@ import { GalleryComponent } from "./components/GalleryComponent";
 import { Content } from "./components/Content";
 import { Ubicacion } from "./components/Ubicacion";
 import { Whatsapp } from "./components/Whatsapp";
+import { IconWhatsapp } from "./components/IconWhatsapp";
 
 import "./App.css";
 
 function App() {
   return (
-    <Container 
-    css={{
-      maxWidth: "1200px",
-    }}
+    <Container
+      css={{
+        maxWidth: "1200px",
+      }}
     >
       <Card
         css={{
@@ -48,6 +49,7 @@ function App() {
       <Content />
       <Ubicacion />
       <Whatsapp />
+      <IconWhatsapp />
     </Container>
   );
 }
