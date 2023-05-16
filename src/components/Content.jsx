@@ -124,7 +124,7 @@ export const Content = () => {
           <Avatar squared src={dollar} />
           <Text size={20}>
             {" "}
-            Precio del arriendo $750000 incluye administracion.
+            Precio del arriendo $800000 incluye administracion.
           </Text>
         </Row>
       </Card.Body>
