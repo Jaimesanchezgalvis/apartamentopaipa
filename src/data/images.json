@@ -1,47 +1,47 @@
 [
   {
-    "original": "src/assets/vistas1",
-    "thumbnail": "src/assets/vistas1",
+    "original": "vistas1",
+    "thumbnail": "vistas1",
     "description": "Vista desde la sala"
   },
   {
-    "original": "src/assets/sala",
-    "thumbnail": "src/assets/sala",
+    "original": "sala",
+    "thumbnail": "sala",
     "description": "Sala"
   },
   {
-    "original": "src/assets/habitacionPrincipal",
-    "thumbnail": "src/assets/habitacionPrincipal",
+    "original": "habitacionPrincipal",
+    "thumbnail": "habitacionPrincipal",
     "description": "Habitacion principal baño privado y vestier"
   },
   {
-    "original": "src/assets/habitacion2",
-    "thumbnail": "src/assets/habitacion2",
+    "original": "habitacion2",
+    "thumbnail": "habitacion2",
     "description": "Habitación 2"
   },
   {
-    "original": "src/assets/habitacion3",
-    "thumbnail": "src/assets/habitacion3",
+    "original": "habitacion3",
+    "thumbnail": "habitacion3",
     "description": "Habitación 3"
   },
   {
-    "original": "src/assets/bañoSocial",
-    "thumbnail": "src/assets/bañoSocial",
+    "original": "bañoSocial",
+    "thumbnail": "bañoSocial",
     "description": "Baño social"
   },
   {
-    "original": "src/assets/salaComedor",
-    "thumbnail": "src/assets/salaComedor",
+    "original": "salaComedor",
+    "thumbnail": "salaComedor",
     "description": "Sala comedor se entrega con cocina integral"
   },
   {
-    "original": "src/assets/vistaCocina",
-    "thumbnail": "src/assets/vistaCocina",
+    "original": "vistaCocina",
+    "thumbnail": "vistaCocina",
     "description": "Vista desde atras sala comedor"
   },
   {
-    "original": "src/assets/vistaGeneral",
-    "thumbnail": "src/assets/vistaGeneral",
+    "original": "vistaGeneral",
+    "thumbnail": "vistaGeneral",
     "description": "Vista General"
   }
 ]

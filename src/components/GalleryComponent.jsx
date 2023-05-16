@@ -8,10 +8,11 @@ export const GalleryComponent = () => {
     const imageP = image.original;
 
     function getImageUrl(name) {
-      return new URL(`./dir/${name}.png`, import.meta.url).href;
+      return new URL(`../assets/${name}.jpeg`, import.meta.url).href;
     }
 
     const imgURL = getImageUrl(imageP);
+    console.log(imgURL);
 
     return {
       original: imgURL,
