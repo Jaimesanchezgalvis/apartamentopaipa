@@ -3,7 +3,12 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  /* max-height: 250px; */
   max-width: 800px;
   margin: 0 auto;
+  border-radius: 10px;
+}
+#root > div > div.video > video {
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 11px 11px 22px #bababa, -11px -11px 22px #ffffff;
 }
