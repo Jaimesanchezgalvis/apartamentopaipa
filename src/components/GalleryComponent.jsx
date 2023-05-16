@@ -6,8 +6,8 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export const GalleryComponent = () => {
   const images = dataImages.map((image) => {
     return {
-      original: image.original,
-      thumbnail: image.thumbnail,
+      original: `${image.original}.jpeg`,
+      thumbnail: `${image.thumbnail}.jpeg`,
       description: image.description,
     };
   });
@@ -20,4 +20,3 @@ export const GalleryComponent = () => {
     </>
   );
 };
-

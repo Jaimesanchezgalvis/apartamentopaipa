@@ -1,47 +1,47 @@
 [
   {
-    "original": "src/assets/vistas1.jpeg",
-    "thumbnail": "src/assets/vistas1.jpeg",
+    "original": "src/assets/vistas1",
+    "thumbnail": "src/assets/vistas1",
     "description": "Vista desde la sala"
   },
   {
-    "original": "src/assets/sala.jpeg",
-    "thumbnail": "src/assets/sala.jpeg",
+    "original": "src/assets/sala",
+    "thumbnail": "src/assets/sala",
     "description": "Sala"
   },
   {
-    "original": "src/assets/habitacionPrincipal.jpeg",
-    "thumbnail": "src/assets/habitacionPrincipal.jpeg",
+    "original": "src/assets/habitacionPrincipal",
+    "thumbnail": "src/assets/habitacionPrincipal",
     "description": "Habitacion principal baño privado y vestier"
   },
   {
-    "original": "src/assets/habitacion2.jpeg",
-    "thumbnail": "src/assets/habitacion2.jpeg",
+    "original": "src/assets/habitacion2",
+    "thumbnail": "src/assets/habitacion2",
     "description": "Habitación 2"
   },
   {
-    "original": "src/assets/habitacion3.jpeg",
-    "thumbnail": "src/assets/habitacion3.jpeg",
+    "original": "src/assets/habitacion3",
+    "thumbnail": "src/assets/habitacion3",
     "description": "Habitación 3"
   },
   {
-    "original": "src/assets/bañoSocial.jpeg",
-    "thumbnail": "src/assets/bañoSocial.jpeg",
+    "original": "src/assets/bañoSocial",
+    "thumbnail": "src/assets/bañoSocial",
     "description": "Baño social"
   },
   {
-    "original": "src/assets/salaComedor.jpeg",
-    "thumbnail": "src/assets/salaComedor.jpeg",
+    "original": "src/assets/salaComedor",
+    "thumbnail": "src/assets/salaComedor",
     "description": "Sala comedor se entrega con cocina integral"
   },
   {
-    "original": "src/assets/vistaCocina.jpeg",
-    "thumbnail": "src/assets/vistaCocina.jpeg",
+    "original": "src/assets/vistaCocina",
+    "thumbnail": "src/assets/vistaCocina",
     "description": "Vista desde atras sala comedor"
   },
   {
-    "original": "src/assets/vistaGeneral.jpeg",
-    "thumbnail": "src/assets/vistaGeneral.jpeg",
+    "original": "src/assets/vistaGeneral",
+    "thumbnail": "src/assets/vistaGeneral",
     "description": "Vista General"
   }
 ]
