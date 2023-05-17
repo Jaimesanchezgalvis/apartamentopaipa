@@ -16,7 +16,7 @@ import { Whatsapp } from "./components/Whatsapp";
 import { IconWhatsapp } from "./components/IconWhatsapp";
 import { VideoPlayer } from "./components/VideoPlayer";
 
-import "./App.css";
+import "./styles/global.css";
 
 function App() {
   return (
