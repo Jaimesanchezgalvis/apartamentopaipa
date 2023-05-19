@@ -6,6 +6,7 @@ import bathroom from "../assets/icons/bathroom.svg";
 import kitchen_point from "../assets/icons/kitchen_point.svg";
 import security from "../assets/icons/security.svg";
 import dollar from "../assets/icons/dollar.svg";
+import car from "../assets/icons/car.svg";
 
 export const Content = () => {
   return (
@@ -113,11 +114,24 @@ export const Content = () => {
             padding: "0 1rem",
           }}
         >
+          <Avatar squared src={car} />
+          <Text size={20}>
+            {" "}
+            <b>Parqueadero:</b> Parqueadero comunal, con vigilancia 24/7.
+          </Text>
+        </Row>
+        <Row
+          css={{
+            gap: "1rem",
+            alignItems: "center",
+            padding: "0 1rem",
+          }}
+        >
           <Avatar squared src={security} />
           <Text size={20}>
             {" "}
             <b>Ubicacion:</b> Conjunto cerrado torres del panorama con
-            vigilancia 24/7, parqueadero comunal.
+            vigilancia 24/7.
           </Text>
         </Row>
         <hr />

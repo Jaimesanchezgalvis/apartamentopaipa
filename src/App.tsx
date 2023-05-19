@@ -1,13 +1,5 @@
 import { Container, Card, Text, Image } from "@nextui-org/react";
 import headerImage from "./assets/headerImg.jpeg";
-// import {
-//   GalleryComponent,
-//   Title,
-//   Content,
-//   Ubicacion,
-//   Whatsapp,
-// } from "./components";
-
 import { Title } from "./components/Title";
 import { GalleryComponent } from "./components/GalleryComponent";
 import { Content } from "./components/Content";
@@ -43,7 +35,7 @@ function App() {
             maxHeight: "300px",
           }}
         />
-        <Text size={10}>(Vista real desde el apartamento)</Text>
+        <Text size={10}>(Vista real desde el apartamentoo)</Text>
       </Card>
       <Title />
       <GalleryComponent />
