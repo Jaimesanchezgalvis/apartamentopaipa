@@ -24,6 +24,7 @@
   "include": [
     "src",
     "src/components/index.d.ts",
+    "test/**/*",
 
   ],
   "references": [

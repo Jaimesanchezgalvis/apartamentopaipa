@@ -1,0 +1,50 @@
+{
+  "description": "Descripcion:",
+  "items": [
+    {
+      "icon": "../assets/icons/bedroom.svg",
+      "title": "Habitacion Principal:",
+      "description": "con baño privado y vestier."
+    },
+    {
+      "icon": "../assets/icons/bedroom.svg",
+      "title": "2 Habitaciones",
+      "description": "con vistas al lago y luz natural."
+    },
+    {
+      "icon": "../assets/icons/bathroom.svg",
+      "title": "Baño social:",
+      "description": "completo con ducha y acabados."
+    },
+    {
+      "icon": "../assets/icons/study.svg",
+      "title": "Espacio para estudio:",
+      "description": "con luz natural."
+    },
+    {
+      "icon": "../assets/icons/living_room.svg",
+      "title": "Sala comedor:",
+      "description": "Amplia con vista al lago y grandes ventanas."
+    },
+    {
+      "icon": "../assets/icons/kitchen_point.svg",
+      "title": "Cocina:",
+      "description": "integral con acabados y espacio para lavadora."
+    },
+    {
+      "icon": "../assets/icons/car.svg",
+      "title": "Parqueadero:",
+      "description": "Parqueadero comunal, con vigilancia 24/7."
+    },
+    {
+      "icon": "../assets/icons/security.svg",
+      "title": "Ubicacion:",
+      "description": "Conjunto cerrado torres del panorama con vigilancia 24/7."
+    },
+    {
+      "icon": "../assets/icons/dollar.svg",
+      "title": "Precio:",
+      "description": "Arriendo $800000 incluye administracion."
+    }
+  ]
+}

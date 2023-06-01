@@ -10,6 +10,11 @@
     "description": "Sala"
   },
   {
+    "original": "cocina",
+    "thumbnail": "cocina",
+    "description": "Cocina integral"
+  },
+  {
     "original": "habitacionPrincipal",
     "thumbnail": "habitacionPrincipal",
     "description": "Habitacion principal baño privado y vestier"
